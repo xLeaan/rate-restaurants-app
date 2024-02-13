@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "rate-restaurants-app",
+    "slug": "rate-restaurants-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
