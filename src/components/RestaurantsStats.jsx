@@ -12,8 +12,12 @@ const RestaurantStats = props => {
     return (
         <View style={{ flexDirection: 'row', justifyContent: 'space-around'}}>
             <View>
-                <StyledText align='center' fontWeight='bold'>{parseThounsands(props.review)}</StyledText>
-                <StyledText>Review:</StyledText>
+                <StyledText align='center' fontWeight='bold'>{parseThounsands(props.PStars)}</StyledText>
+                <StyledText>Rating P:</StyledText>
+            </View>
+            <View>
+                <StyledText align='center' fontWeight='bold'>{parseThounsands(props.LStars)}</StyledText>
+                <StyledText>Rating L:</StyledText>
             </View>
             <View>
                 <StyledText align='center' fontWeight='bold'>{parseThounsands(props.rating)}</StyledText> 
