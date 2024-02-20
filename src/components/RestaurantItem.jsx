@@ -34,6 +34,7 @@ const RestaurantItem = (props) => (
             color: theme.colors.white,
             backgroundColor: theme.colors.primary,
             marginVertical: 4,
+            borderRadius: 4,
             alignSelf: 'flex-start'
         },
         image: {
