@@ -3,6 +3,8 @@ import { Text, View} from "react-native";
 import RestaurantList from "./RestaurantsList";
 import AppBar from "./AppBar";
 import { Route, Redirect, Routes } from 'react-router-native'
+import CafeList from "./CafeList";
+import PapaList from "./PapaList";
 
 const Main = () => {
     return(
@@ -10,8 +12,8 @@ const Main = () => {
             <AppBar />
             <Routes>
                 <Route path="/" element={<RestaurantList/>} />
-                <Route path="/signin" element={<Text> Work on it!</Text>} />
-                
+                <Route path="/cafe" element={<CafeList />} />
+                <Route path="/papas" element={<PapaList />} />
             </Routes>
         </View>
     )

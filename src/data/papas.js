@@ -1,85 +1,83 @@
-export default [
+export default [	
     {
-        id: "heladeria1",
-        fullName: "Alaska",
-        description: "Heladeria",
+        id: "papas1",
+        fullName: "Santa Patata",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria2",
-        fullName: "Las Cerezas",
-        description: "Heladeria",
+        id: "papas2",
+        fullName: "Capira",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria3",
-        fullName: "Amoracuya",
-        description: "Heladeria",
+        id: "papas3",
+        fullName: "Papas de la 33",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria4",
-        fullName: "Delizia",
-        description: "Heladeria",
+        id: "papas4",
+        fullName: "El Pilón",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria5",
-        fullName: "Bolton",
-        description: "Heladeria",
+        id: "papas5",
+        fullName: "Comidas rápidas Juan",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria6",
-        fullName: "Antonio's",
-        description: "Heladeria",
+        id: "papas6",
+        fullName: "Papas de Ciudad del Rio",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria7",
-        fullName: "Broken Chains Elements",
-        description: "Heladeria",
+        id: "papas7",
+        fullName: "Donde Dario",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria8",
-        fullName: "Tropikalia",
-        description: "Heladeria",
+        id: "papas8",
+        fullName: "Papas el mono",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
     },
     {
-        id: "heladeria9",
-        fullName: "Coppi",
-        description: "Heladeria",
+        id: "papas9",
+        fullName: "Fries papa lovers",
+        description: "Papas",
         PStars: 0,
         LStars: 0,
         rating: 0,
         url: 'https://media.admagazine.com/photos/651aeed9da5f4d9a3844a94b/4:3/w_2660,h_1995,c_limit/Porten%CC%83o-restaurante-1.jpg'
-    },
-    
-    
+    }
 ]

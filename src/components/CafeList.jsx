@@ -1,18 +1,18 @@
 import React from "react";
 import { View, Text, FlatList } from "react-native";
-import restaurants from "../data/restaurants";
-import RestaurantItem from "./RestaurantItem";
+import cafes from "../data/cafes";
+import CafeItem from "./CafeItem";
 
-const RestaurantList = () => {
+const CafeList = () => {
     return (
         <FlatList 
-        data={restaurants}
+        data={cafes}
         ItemSeparatorComponent={() => <Text> </Text>}
         renderItem={({ item: rest}) => (
-            <RestaurantItem{... rest} />
+            <CafeItem{... rest} />
         )}                
         />
     )
 }
 
-export default RestaurantList;
+export default CafeList;

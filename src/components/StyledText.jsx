@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native-web";
 import theme from '../theme.js'
+import { StyleSheet, Text } from "react-native";
 
 const styles = StyleSheet.create({
     text: {

@@ -31,8 +31,9 @@ const AppBarTap = ({ active, children, to}) => {
 const AppBar = () => {
     return (
         <View style={styles.container}>
-            <AppBarTap active to='/'>Restaurants</AppBarTap>
-            <AppBarTap active to='/signin'>Iniciar Sesión</AppBarTap>
+            <AppBarTap active to='/'>Heladerías</AppBarTap>
+            <AppBarTap active to='/cafe'>Cafés</AppBarTap>
+            <AppBarTap active to='/papas'>Papas</AppBarTap>
         </View>
     )
 }

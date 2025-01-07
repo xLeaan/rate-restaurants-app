@@ -1,10 +1,10 @@
 import React from "react"
 import StyledText from "./StyledText"
-import Stats from "./Stats"
 import theme from "../theme"
 import { Image, StyleSheet, Text, View } from "react-native"
+import Stats from "./Stats"
 
-const RestaurantsItemHeader = (props) => (
+const PapaItemHeader = (props) => (
     <View style={{ flexDirection: 'row', paddingBottom: 2}}>
         <View style={{ paddingRight: 10}}>
         <Image style={styles.image} source={{ uri: props.url}}></Image>
@@ -17,9 +17,9 @@ const RestaurantsItemHeader = (props) => (
     </View>
 )
 
-const RestaurantItem = (props) => (
+const PapaItem = (props) => (
     <View key={props.id} style={styles.container}>
-        <RestaurantsItemHeader {...props}/>
+        <PapaItemHeader {...props}/>
         <Stats {...props} />
     </View> 
     )
@@ -32,7 +32,7 @@ const RestaurantItem = (props) => (
         description: {
             padding: 4,
             color: theme.colors.white,
-            backgroundColor: theme.colors.primary,
+            backgroundColor: theme.colors.third,
             marginVertical: 4,
             borderRadius: 4,
             alignSelf: 'flex-start'
@@ -44,4 +44,4 @@ const RestaurantItem = (props) => (
         }
 })
 
-export default RestaurantItem;
+export default PapaItem;
